@@ -2,11 +2,9 @@
   
 # 👋 Hello World! I'm Xiaogang Su
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=Apache+Doris+Data+Lake+Developer;Learning+Rust+Programming;Open+Source+Contributor" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=Talk+is+cheap%2C+show+me+the+code+-+Linus;Cogito+ergo+sum+-+Descartes;Scio+me+nihil+scire+-+Socrates;Esse+est+percipi+-+Berkeley" alt="Typing SVG" />
 
 </div>
-
----
 
 ## 🚀 About Me
 
@@ -30,8 +28,6 @@ impl Developer {
 }
 ```
 
----
-
 ## 🛠️ Tech Stack & Tools
 
 <div align="center">
@@ -53,8 +49,6 @@ impl Developer {
 
 </div>
 
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -66,8 +60,6 @@ impl Developer {
 
 </div>
 
----
-
 ## 🏆 GitHub Trophies
 
 <div align="center">
@@ -75,8 +67,6 @@ impl Developer {
 [![trophy](https://github-profile-trophy.vercel.app/?username=suxiaogang223&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
-
----
 
 ## 🌟 Current Focus
 
@@ -103,13 +93,9 @@ impl Developer {
   </tr>
 </table>
 
----
-
 ## 📈 Activity Graph
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=suxiaogang223&theme=tokyo-night&hide_border=true&area=true" width="100%">
-
----
 
 ## 🤝 Let's Connect!
 
