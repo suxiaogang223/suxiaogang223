@@ -1,14 +1,129 @@
-- 👋 Hi, I’m @suxiaogang223
-- 👀 I’m interested in database and bigdata
-- 🌱 I’m currently learning rust
-- 💞️ I’m looking to collaborate ...
-- 📫 How to reach me suxiaogang223@icloud.com
+<div align="center">
+  
+# 👋 Hello World! I'm Xiaogang Su
 
-<!---
-![suxiaogang223's GitHub stats](https://github-readme-stats.vercel.app/api?username=suxiaogang223&include_all_commits=true&count_private=true&show_icons=true&theme=merko)
---->
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=Apache+Doris+Data+Lake+Developer;Learning+Rust+Programming;Open+Source+Contributor" alt="Typing SVG" />
 
-<!---
-LiShiZhensPi/LiShiZhensPi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+</div>
+
+---
+
+## 🚀 About Me
+
+```rust
+struct Developer {
+    name: String,
+    work_focus: String,
+    currently_learning: String,
+    contact: String,
+}
+
+impl Developer {
+    fn new() -> Self {
+        Developer {
+            name: "Xiaogang Su".to_string(),
+            work_focus: "Apache Doris Data Lake Ecosystem Development".to_string(),
+            currently_learning: "Rust Programming Language".to_string(),
+            contact: "suxiaogang223@icloud.com".to_string(),
+        }
+    }
+}
+```
+
+---
+
+## 🛠️ Tech Stack & Tools
+
+<div align="center">
+
+### 🎯 Core Technologies
+![Apache Doris](https://img.shields.io/badge/Apache%20Doris-FF6B35?style=for-the-badge&logo=apache&logoColor=white)
+![Apache Spark](https://img.shields.io/badge/Apache%20Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
+![Apache Hive](https://img.shields.io/badge/Apache%20Hive-FDEE21?style=for-the-badge&logo=apachehive&logoColor=black)
+![Apache Iceberg](https://img.shields.io/badge/Apache%20Iceberg-0066CC?style=for-the-badge&logo=apache&logoColor=white)
+![Apache Paimon](https://img.shields.io/badge/Apache%20Paimon-FF4B4B?style=for-the-badge&logo=apache&logoColor=white)
+
+### 💻 Languages & Tools
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Lisp](https://img.shields.io/badge/Lisp-5E5086?style=for-the-badge&logo=lisp&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+</div>
+
+---
+
+## 📊 GitHub Stats
+
+<div align="center">
+  
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=suxiaogang223&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=suxiaogang223&theme=tokyonight&hide_border=true" />
+
+<img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suxiaogang223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+  
+[![trophy](https://github-profile-trophy.vercel.app/?username=suxiaogang223&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## 🌟 Current Focus
+
+<table>
+  <tr>
+    <td>🔭 <strong>Working on</strong></td>
+    <td>Apache Doris data lake ecosystem development</td>
+  </tr>
+  <tr>
+    <td>🌱 <strong>Learning</strong></td>
+    <td>Rust programming language and BigData system design</td>
+  </tr>
+  <tr>
+    <td>👯 <strong>Collaborating</strong></td>
+    <td>Open source data lake projects and Apache Doris community</td>
+  </tr>
+  <tr>
+    <td>💬 <strong>Ask me about</strong></td>
+    <td>Apache Doris, data lake architecture, and Rust development</td>
+  </tr>
+  <tr>
+    <td>❤️ <strong>Hobbies</strong></td>
+    <td>💻 Coding | 📚 Reading | 🎬 Movie</td>
+  </tr>
+</table>
+
+---
+
+## 📈 Activity Graph
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=suxiaogang223&theme=tokyo-night&hide_border=true&area=true" width="100%">
+
+---
+
+## 🤝 Let's Connect!
+
+<div align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:suxiaogang223@icloud.com)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/suxiaogang223)
+
+</div>
+
+<div align="center">
+  
+### 💡 *"Understanding how things work at the detail level is essential to understanding the concepts"*
+
+<img src="https://komarev.com/ghpvc/?username=suxiaogang223&style=for-the-badge&color=brightgreen" alt="Profile views" />
+
+</div>
