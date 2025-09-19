@@ -8,25 +8,28 @@
 
 ## 🚀 About Me
 
-```rust
-struct Developer {
-    name: String,
-    work_focus: String,
-    currently_learning: String,
-    contact: String,
-}
-
-impl Developer {
-    fn new() -> Self {
-        Developer {
-            name: "Xiaogang Su".to_string(),
-            work_focus: "Apache Doris Data Lake Ecosystem Development".to_string(),
-            currently_learning: "Rust Programming Language".to_string(),
-            contact: "suxiaogang223@icloud.com".to_string(),
-        }
-    }
-}
-```
+<table>
+  <tr>
+    <td>🔭 <strong>Working on</strong></td>
+    <td>Apache Doris data lake ecosystem development</td>
+  </tr>
+  <tr>
+    <td>🌱 <strong>Learning</strong></td>
+    <td>Rust programming language and BigData system design</td>
+  </tr>
+  <tr>
+    <td>👯 <strong>Collaborating</strong></td>
+    <td>Open source data lake projects and Apache Doris community</td>
+  </tr>
+  <tr>
+    <td>💬 <strong>Ask me about</strong></td>
+    <td>Apache Doris, data lake architecture, and Rust development</td>
+  </tr>
+  <tr>
+    <td>❤️ <strong>Hobbies</strong></td>
+    <td>💻 Coding | 📚 Reading | 🎬 Movie</td>
+  </tr>
+</table>
 
 ## 🛠️ Tech Stack & Tools
 
@@ -52,11 +55,9 @@ impl Developer {
 ## 📊 GitHub Stats
 
 <div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=suxiaogang223&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suxiaogang223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-<img width="98%" src="https://github-readme-streak-stats.herokuapp.com/?user=suxiaogang223&theme=tokyonight&hide_border=true" />
-
+<img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suxiaogang223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+<img width="32%" src="https://github-readme-stats.vercel.app/api?username=suxiaogang223&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img width="32%" src="https://github-readme-streak-stats.herokuapp.com/?user=suxiaogang223&theme=tokyonight&hide_border=true" />
 </div>
 
 ## 🏆 GitHub Trophies
@@ -66,31 +67,6 @@ impl Developer {
 [![trophy](https://github-profile-trophy.vercel.app/?username=suxiaogang223&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
 
 </div>
-
-## 🌟 Current Focus
-
-<table>
-  <tr>
-    <td>🔭 <strong>Working on</strong></td>
-    <td>Apache Doris data lake ecosystem development</td>
-  </tr>
-  <tr>
-    <td>🌱 <strong>Learning</strong></td>
-    <td>Rust programming language and BigData system design</td>
-  </tr>
-  <tr>
-    <td>👯 <strong>Collaborating</strong></td>
-    <td>Open source data lake projects and Apache Doris community</td>
-  </tr>
-  <tr>
-    <td>💬 <strong>Ask me about</strong></td>
-    <td>Apache Doris, data lake architecture, and Rust development</td>
-  </tr>
-  <tr>
-    <td>❤️ <strong>Hobbies</strong></td>
-    <td>💻 Coding | 📚 Reading | 🎬 Movie</td>
-  </tr>
-</table>
 
 ## 📈 Activity Graph
 
