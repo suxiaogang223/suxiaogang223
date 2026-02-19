@@ -55,7 +55,16 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:recent_activity-->
-Loading recent activities...
+- 🆕 Repo: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
+- 🆕 Repo: [pymacs](https://github.com/suxiaogang223/pymacs) (2026-02-16)
+- 🆕 Repo: [datafusion-datasource-orc](https://github.com/suxiaogang223/datafusion-datasource-orc) (2025-12-06)
+- 🆕 Repo: [rust-os-in-1000-lines](https://github.com/suxiaogang223/rust-os-in-1000-lines) (2025-10-06)
+- 🆕 Repo: [os_in_1000](https://github.com/suxiaogang223/os_in_1000) (2025-09-06)
+- 🆕 Repo: [suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io) (2024-11-16)
+- 🆕 Repo: [hudi_p2_init_env](https://github.com/suxiaogang223/hudi_p2_init_env) (2024-11-11)
+- 🆕 Repo: [sicp4](https://github.com/suxiaogang223/sicp4) (2023-09-04)
+- 🆕 Repo: [racket-fmt](https://github.com/suxiaogang223/racket-fmt) (2022-10-19)
+- 🆕 Repo: [suxiaogang223](https://github.com/suxiaogang223/suxiaogang223) (2022-08-03)
 <!--END_SECTION:recent_activity-->
 
 > Blog source: [suxiaogang223/suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io)
