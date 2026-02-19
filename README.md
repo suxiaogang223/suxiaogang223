@@ -55,16 +55,16 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:recent_activity-->
-- 🆕 Repo: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
-- 🆕 Repo: [pymacs](https://github.com/suxiaogang223/pymacs) (2026-02-16)
-- 🆕 Repo: [datafusion-datasource-orc](https://github.com/suxiaogang223/datafusion-datasource-orc) (2025-12-06)
-- 🆕 Repo: [rust-os-in-1000-lines](https://github.com/suxiaogang223/rust-os-in-1000-lines) (2025-10-06)
-- 🆕 Repo: [os_in_1000](https://github.com/suxiaogang223/os_in_1000) (2025-09-06)
-- 🆕 Repo: [suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io) (2024-11-16)
-- 🆕 Repo: [hudi_p2_init_env](https://github.com/suxiaogang223/hudi_p2_init_env) (2024-11-11)
-- 🆕 Repo: [sicp4](https://github.com/suxiaogang223/sicp4) (2023-09-04)
-- 🆕 Repo: [racket-fmt](https://github.com/suxiaogang223/racket-fmt) (2022-10-19)
-- 🆕 Repo: [suxiaogang223](https://github.com/suxiaogang223/suxiaogang223) (2022-08-03)
+- 🆕 Repo Created: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
+- 🆕 Repo Created: [pymacs](https://github.com/suxiaogang223/pymacs) (2026-02-16)
+- 🔀 PR Merged: [branch-4.0: feature(multi-catalog) Add max_file_split_num session variable to...](https://github.com/apache/doris/pull/60732) in `apache/doris` (2026-02-14)
+- 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
+- 🔀 PR Merged: [Feature(paimon) Refactor Paimon system tables to use native table execution path](https://github.com/apache/doris/pull/60556) in `apache/doris` (2026-02-12)
+- 🔀 PR Merged: [branch-4.0: Feature(Iceberg) Implement expire_snapshots procedure for Iceberg...](https://github.com/apache/doris/pull/60647) in `apache/doris` (2026-02-12)
+- 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
+- 🔀 PR Merged: [refactor(paimon) Per-catalog Paimon metadata cache with two-level table+snaps...](https://github.com/apache/doris/pull/60478) in `apache/doris` (2026-02-11)
+- 🔀 PR Merged: [fix(iceberg) fix unstable iceberg case](https://github.com/apache/doris/pull/60646) in `apache/doris` (2026-02-11)
+- 🔀 PR Merged: [Feature(Iceberg) Implement expire_snapshots procedure for Iceberg tables](https://github.com/apache/doris/pull/59979) in `apache/doris` (2026-02-04)
 <!--END_SECTION:recent_activity-->
 
 > Blog source: [suxiaogang223/suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io)
