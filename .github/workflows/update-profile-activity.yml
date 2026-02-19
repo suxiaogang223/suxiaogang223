@@ -25,6 +25,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_USERNAME: suxiaogang223
+          BLOG_REPO: suxiaogang223/suxiaogang223.github.io
+          BLOG_SITE_BASE_URL: https://suxiaogang223.github.io
           README_PATH: README.md
         run: node scripts/generate-profile-activity.mjs
 

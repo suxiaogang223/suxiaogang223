@@ -58,7 +58,7 @@
 Loading recent activities...
 <!--END_SECTION:recent_activity-->
 
-> Blog updates: coming soon.
+> Blog source: [suxiaogang223/suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io)
 
 ## 🤝 Let's Connect!
 

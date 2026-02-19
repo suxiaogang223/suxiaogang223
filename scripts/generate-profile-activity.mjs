@@ -6,11 +6,15 @@ const START_MARKER = "<!--START_SECTION:recent_activity-->";
 const END_MARKER = "<!--END_SECTION:recent_activity-->";
 
 const DEFAULT_USERNAME = "suxiaogang223";
+const DEFAULT_BLOG_REPO = "suxiaogang223/suxiaogang223.github.io";
+const DEFAULT_BLOG_SITE_BASE_URL = "https://suxiaogang223.github.io";
 const DEFAULT_README_PATH = "README.md";
 const MAX_ITEMS = 10;
-const COMMIT_TARGET = 7;
-const REPO_TARGET = 3;
+const COMMIT_TARGET = 6;
+const REPO_TARGET = 2;
+const BLOG_TARGET = 2;
 const COMMIT_MESSAGE_MAX_LEN = 80;
+const BLOG_TITLE_MAX_LEN = 80;
 
 function oneLine(text) {
   return String(text ?? "")
@@ -29,12 +33,75 @@ function safeText(text) {
   return oneLine(text).replace(/[\[\]`]/g, "");
 }
 
+function normalizeRepoName(value) {
+  const input = oneLine(value);
+  if (!input) {
+    throw new Error("Blog repository is empty.");
+  }
+
+  const urlMatch = input.match(
+    /^https?:\/\/github\.com\/([^/\s]+)\/([^/\s?#]+)(?:[/?#].*)?$/i
+  );
+  if (urlMatch) {
+    return `${urlMatch[1]}/${urlMatch[2].replace(/\.git$/i, "")}`;
+  }
+
+  const nameMatch = input.match(/^([^/\s]+)\/([^/\s]+)$/);
+  if (nameMatch) {
+    return `${nameMatch[1]}/${nameMatch[2].replace(/\.git$/i, "")}`;
+  }
+
+  throw new Error(
+    `Invalid repository format: "${value}". Expected "owner/repo" or a GitHub repository URL.`
+  );
+}
+
 function formatDate(value) {
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) {
     return "unknown-date";
   }
   return date.toISOString().slice(0, 10);
+}
+
+function parsePostPath(postPath) {
+  const match = postPath.match(
+    /^_posts\/(\d{4})-(\d{2})-(\d{2})-(.+)\.(md|markdown)$/i
+  );
+
+  if (!match) {
+    return null;
+  }
+
+  const [, year, month, day, slugRaw] = match;
+  const date = `${year}-${month}-${day}`;
+  const timestamp = Date.parse(`${date}T00:00:00Z`) || 0;
+  const slug = slugRaw.trim().replace(/[/\\]+/g, "-");
+  let decodedSlug = slug;
+  try {
+    decodedSlug = decodeURIComponent(slug);
+  } catch {
+    decodedSlug = slug;
+  }
+  const title = truncate(
+    safeText(decodedSlug.replace(/[-_]+/g, " ")),
+    BLOG_TITLE_MAX_LEN
+  );
+
+  return {
+    date,
+    timestamp,
+    slug,
+    title: title || "Untitled post",
+  };
+}
+
+function toSiteBaseUrl(value) {
+  const trimmed = oneLine(value || DEFAULT_BLOG_SITE_BASE_URL);
+  if (!trimmed) {
+    return DEFAULT_BLOG_SITE_BASE_URL;
+  }
+  return trimmed.replace(/\/+$/, "");
 }
 
 async function githubGet(pathname, token) {
@@ -59,6 +126,38 @@ async function githubGet(pathname, token) {
   }
 
   return response.json();
+}
+
+async function fetchBlogPosts(blogRepoFullName, blogSiteBaseUrl, token) {
+  const [owner, repo] = blogRepoFullName.split("/");
+  const repoInfo = await githubGet(`/repos/${owner}/${repo}`, token);
+  const defaultBranch = repoInfo?.default_branch || "main";
+  const tree = await githubGet(
+    `/repos/${owner}/${repo}/git/trees/${encodeURIComponent(defaultBranch)}?recursive=1`,
+    token
+  );
+
+  const items = [];
+  for (const entry of tree?.tree ?? []) {
+    if (entry?.type !== "blob" || typeof entry?.path !== "string") {
+      continue;
+    }
+    const parsed = parsePostPath(entry.path);
+    if (!parsed) {
+      continue;
+    }
+
+    items.push({
+      type: "blog",
+      timestamp: parsed.timestamp,
+      date: parsed.date,
+      title: parsed.title,
+      url: `${blogSiteBaseUrl}/${parsed.slug}/`,
+      sourceUrl: `https://github.com/${owner}/${repo}/blob/${defaultBranch}/${entry.path}`,
+    });
+  }
+
+  return items.sort((a, b) => b.timestamp - a.timestamp);
 }
 
 function extractCommits(events) {
@@ -123,15 +222,17 @@ function extractRepos(repos) {
     .sort((a, b) => b.timestamp - a.timestamp);
 }
 
-function pickActivityItems(allCommits, allRepos) {
+function pickActivityItems(allCommits, allRepos, allBlogs) {
   const selectedCommits = allCommits.slice(0, COMMIT_TARGET);
   const selectedRepos = allRepos.slice(0, REPO_TARGET);
-  const selected = [...selectedCommits, ...selectedRepos];
+  const selectedBlogs = allBlogs.slice(0, BLOG_TARGET);
+  const selected = [...selectedCommits, ...selectedRepos, ...selectedBlogs];
 
   if (selected.length < MAX_ITEMS) {
     const extraCommits = allCommits.slice(COMMIT_TARGET);
     const extraRepos = allRepos.slice(REPO_TARGET);
-    const fallbackPool = [...extraCommits, ...extraRepos].sort(
+    const extraBlogs = allBlogs.slice(BLOG_TARGET);
+    const fallbackPool = [...extraCommits, ...extraRepos, ...extraBlogs].sort(
       (a, b) => b.timestamp - a.timestamp
     );
 
@@ -156,6 +257,9 @@ function renderSection(items) {
       if (item.type === "commit") {
         return `- ✅ Commit: [${item.repoName}@${item.shortSha}](${item.url}) - ${item.message} (${item.date})`;
       }
+      if (item.type === "blog") {
+        return `- 📝 Blog: [${item.title}](${item.url}) (${item.date})`;
+      }
       return `- 🆕 Repo: [${item.repoDisplayName}](${item.url}) (${item.date})`;
     })
     .join("\n");
@@ -178,6 +282,10 @@ function replaceSection(content, section) {
 
 async function main() {
   const username = process.env.GITHUB_USERNAME || DEFAULT_USERNAME;
+  const blogRepo = normalizeRepoName(process.env.BLOG_REPO || DEFAULT_BLOG_REPO);
+  const blogSiteBaseUrl = toSiteBaseUrl(
+    process.env.BLOG_SITE_BASE_URL || DEFAULT_BLOG_SITE_BASE_URL
+  );
   const token = process.env.GITHUB_TOKEN;
   const readmePath = process.env.README_PATH || DEFAULT_README_PATH;
 
@@ -185,17 +293,18 @@ async function main() {
     throw new Error("Missing GITHUB_TOKEN environment variable.");
   }
 
-  const [events, repos] = await Promise.all([
+  const [events, repos, blogs] = await Promise.all([
     githubGet(`/users/${username}/events/public?per_page=100`, token),
     githubGet(
       `/users/${username}/repos?sort=created&direction=desc&per_page=100`,
       token
     ),
+    fetchBlogPosts(blogRepo, blogSiteBaseUrl, token),
   ]);
 
   const commits = extractCommits(events);
   const createdRepos = extractRepos(repos);
-  const selected = pickActivityItems(commits, createdRepos);
+  const selected = pickActivityItems(commits, createdRepos, blogs);
   const sectionText = renderSection(selected);
 
   const resolvedReadmePath = path.resolve(readmePath);
@@ -209,7 +318,7 @@ async function main() {
 
   fs.writeFileSync(resolvedReadmePath, updated, "utf8");
   console.log(
-    `Updated ${readmePath} with ${selected.length} activity item(s). commits=${commits.length}, repos=${createdRepos.length}`
+    `Updated ${readmePath} with ${selected.length} item(s). commits=${commits.length}, repos=${createdRepos.length}, blogs=${blogs.length}`
   );
 }
 
