@@ -52,6 +52,14 @@
 
 </div>
 
+## 🕒 Recent Activity
+
+<!--START_SECTION:recent_activity-->
+Loading recent activities...
+<!--END_SECTION:recent_activity-->
+
+> Blog updates: coming soon.
+
 ## 🤝 Let's Connect!
 
 <div align="center">
