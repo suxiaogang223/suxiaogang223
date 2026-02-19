@@ -10,11 +10,15 @@ const DEFAULT_BLOG_REPO = "suxiaogang223/suxiaogang223.github.io";
 const DEFAULT_BLOG_SITE_BASE_URL = "https://suxiaogang223.github.io";
 const DEFAULT_README_PATH = "README.md";
 const MAX_ITEMS = 10;
-const COMMIT_TARGET = 6;
-const REPO_TARGET = 2;
-const BLOG_TARGET = 2;
+const COMMIT_TARGET = 4;
+const ISSUE_TARGET = 2;
+const MERGED_PR_TARGET = 2;
+const REPO_TARGET = 1;
+const BLOG_TARGET = 1;
 const COMMIT_MESSAGE_MAX_LEN = 80;
 const BLOG_TITLE_MAX_LEN = 80;
+const ISSUE_TITLE_MAX_LEN = 80;
+const PR_TITLE_MAX_LEN = 80;
 
 function oneLine(text) {
   return String(text ?? "")
@@ -102,6 +106,15 @@ function toSiteBaseUrl(value) {
     return DEFAULT_BLOG_SITE_BASE_URL;
   }
   return trimmed.replace(/\/+$/, "");
+}
+
+function parseRepoNameFromApiUrl(url) {
+  const text = oneLine(url);
+  const match = text.match(/\/repos\/([^/\s]+\/[^/\s]+)$/);
+  if (!match) {
+    return "unknown/repo";
+  }
+  return match[1];
 }
 
 async function githubGet(pathname, token) {
@@ -222,19 +235,73 @@ function extractRepos(repos) {
     .sort((a, b) => b.timestamp - a.timestamp);
 }
 
-function pickActivityItems(allCommits, allRepos, allBlogs) {
+function extractIssues(searchResult) {
+  return (searchResult?.items ?? [])
+    .map((item) => {
+      const createdAt = item?.created_at;
+      return {
+        type: "issue",
+        timestamp: Date.parse(createdAt) || 0,
+        date: formatDate(createdAt),
+        title: truncate(safeText(item?.title || "Untitled issue"), ISSUE_TITLE_MAX_LEN),
+        repoName: parseRepoNameFromApiUrl(item?.repository_url),
+        url: item?.html_url,
+      };
+    })
+    .filter((item) => item.url)
+    .sort((a, b) => b.timestamp - a.timestamp);
+}
+
+function extractMergedPullRequests(searchResult) {
+  return (searchResult?.items ?? [])
+    .map((item) => {
+      const mergedAt = item?.closed_at || item?.updated_at;
+      return {
+        type: "merged_pr",
+        timestamp: Date.parse(mergedAt) || 0,
+        date: formatDate(mergedAt),
+        title: truncate(safeText(item?.title || "Untitled PR"), PR_TITLE_MAX_LEN),
+        repoName: parseRepoNameFromApiUrl(item?.repository_url),
+        url: item?.html_url,
+      };
+    })
+    .filter((item) => item.url)
+    .sort((a, b) => b.timestamp - a.timestamp);
+}
+
+function pickActivityItems(
+  allCommits,
+  allIssues,
+  allMergedPrs,
+  allRepos,
+  allBlogs
+) {
   const selectedCommits = allCommits.slice(0, COMMIT_TARGET);
+  const selectedIssues = allIssues.slice(0, ISSUE_TARGET);
+  const selectedMergedPrs = allMergedPrs.slice(0, MERGED_PR_TARGET);
   const selectedRepos = allRepos.slice(0, REPO_TARGET);
   const selectedBlogs = allBlogs.slice(0, BLOG_TARGET);
-  const selected = [...selectedCommits, ...selectedRepos, ...selectedBlogs];
+  const selected = [
+    ...selectedCommits,
+    ...selectedIssues,
+    ...selectedMergedPrs,
+    ...selectedRepos,
+    ...selectedBlogs,
+  ];
 
   if (selected.length < MAX_ITEMS) {
     const extraCommits = allCommits.slice(COMMIT_TARGET);
+    const extraIssues = allIssues.slice(ISSUE_TARGET);
+    const extraMergedPrs = allMergedPrs.slice(MERGED_PR_TARGET);
     const extraRepos = allRepos.slice(REPO_TARGET);
     const extraBlogs = allBlogs.slice(BLOG_TARGET);
-    const fallbackPool = [...extraCommits, ...extraRepos, ...extraBlogs].sort(
-      (a, b) => b.timestamp - a.timestamp
-    );
+    const fallbackPool = [
+      ...extraCommits,
+      ...extraIssues,
+      ...extraMergedPrs,
+      ...extraRepos,
+      ...extraBlogs,
+    ].sort((a, b) => b.timestamp - a.timestamp);
 
     for (const item of fallbackPool) {
       if (selected.length >= MAX_ITEMS) {
@@ -257,10 +324,16 @@ function renderSection(items) {
       if (item.type === "commit") {
         return `- ✅ Commit: [${item.repoName}@${item.shortSha}](${item.url}) - ${item.message} (${item.date})`;
       }
+      if (item.type === "issue") {
+        return `- 🐛 Issue Opened: [${item.title}](${item.url}) in \`${item.repoName}\` (${item.date})`;
+      }
+      if (item.type === "merged_pr") {
+        return `- 🔀 PR Merged: [${item.title}](${item.url}) in \`${item.repoName}\` (${item.date})`;
+      }
       if (item.type === "blog") {
         return `- 📝 Blog: [${item.title}](${item.url}) (${item.date})`;
       }
-      return `- 🆕 Repo: [${item.repoDisplayName}](${item.url}) (${item.date})`;
+      return `- 🆕 Repo Created: [${item.repoDisplayName}](${item.url}) (${item.date})`;
     })
     .join("\n");
 }
@@ -293,18 +366,37 @@ async function main() {
     throw new Error("Missing GITHUB_TOKEN environment variable.");
   }
 
-  const [events, repos, blogs] = await Promise.all([
+  const issueQuery = encodeURIComponent(`is:issue author:${username}`);
+  const mergedPrQuery = encodeURIComponent(`is:pr is:merged author:${username}`);
+
+  const [events, repos, blogs, issuesSearch, mergedPrsSearch] = await Promise.all([
     githubGet(`/users/${username}/events/public?per_page=100`, token),
     githubGet(
       `/users/${username}/repos?sort=created&direction=desc&per_page=100`,
       token
     ),
     fetchBlogPosts(blogRepo, blogSiteBaseUrl, token),
+    githubGet(
+      `/search/issues?q=${issueQuery}&sort=created&order=desc&per_page=100`,
+      token
+    ),
+    githubGet(
+      `/search/issues?q=${mergedPrQuery}&sort=updated&order=desc&per_page=100`,
+      token
+    ),
   ]);
 
   const commits = extractCommits(events);
   const createdRepos = extractRepos(repos);
-  const selected = pickActivityItems(commits, createdRepos, blogs);
+  const issues = extractIssues(issuesSearch);
+  const mergedPrs = extractMergedPullRequests(mergedPrsSearch);
+  const selected = pickActivityItems(
+    commits,
+    issues,
+    mergedPrs,
+    createdRepos,
+    blogs
+  );
   const sectionText = renderSection(selected);
 
   const resolvedReadmePath = path.resolve(readmePath);
@@ -318,7 +410,7 @@ async function main() {
 
   fs.writeFileSync(resolvedReadmePath, updated, "utf8");
   console.log(
-    `Updated ${readmePath} with ${selected.length} item(s). commits=${commits.length}, repos=${createdRepos.length}, blogs=${blogs.length}`
+    `Updated ${readmePath} with ${selected.length} item(s). commits=${commits.length}, issues=${issues.length}, merged_prs=${mergedPrs.length}, repos=${createdRepos.length}, blogs=${blogs.length}`
   );
 }
 
