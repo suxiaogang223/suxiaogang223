@@ -52,26 +52,6 @@
 
 </div>
 
-## 📊 GitHub Stats
-
-<div align="center">
-<img width="32%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=suxiaogang223&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
-<img width="32%" src="https://github-readme-stats.vercel.app/api?username=suxiaogang223&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
-<img width="32%" src="https://github-readme-streak-stats.herokuapp.com/?user=suxiaogang223&theme=tokyonight&hide_border=true" />
-</div>
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-[![trophy](https://github-profile-trophy.vercel.app/?username=suxiaogang223&theme=tokyonight&no-frame=true&row=1&column=7)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
-## 📈 Activity Graph
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=suxiaogang223&theme=tokyo-night&hide_border=true&area=true" width="100%">
-
 ## 🤝 Let's Connect!
 
 <div align="center">
