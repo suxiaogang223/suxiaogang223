@@ -55,6 +55,7 @@
 ## 🕒 Recent Activity
 
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(test) make hive compress split assertion BE-aware](https://github.com/apache/doris/pull/60947) in `apache/doris` (2026-03-03)
 - 🔀 PR Merged: [fix(iceberg) Invalidate related-table cache on external table refresh](https://github.com/apache/doris/pull/60867) in `apache/doris` (2026-02-27)
 - 🆕 Repo Created: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
 - 🆕 Repo Created: [pymacs](https://github.com/suxiaogang223/pymacs) (2026-02-16)
@@ -64,7 +65,6 @@
 - 🔀 PR Merged: [branch-4.0: Feature(Iceberg) Implement expire_snapshots procedure for Iceberg...](https://github.com/apache/doris/pull/60647) in `apache/doris` (2026-02-12)
 - 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
 - 🔀 PR Merged: [refactor(paimon) Per-catalog Paimon metadata cache with two-level table+snaps...](https://github.com/apache/doris/pull/60478) in `apache/doris` (2026-02-11)
-- 🔀 PR Merged: [fix(iceberg) fix unstable iceberg case](https://github.com/apache/doris/pull/60646) in `apache/doris` (2026-02-11)
 <!--END_SECTION:recent_activity-->
 
 > Blog source: [suxiaogang223/suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io)
