@@ -1,9 +1,6 @@
 # Socrates's Profile
 
-`#+AUTHOR: suxiaogang223`  
-`#+EMAIL: suxiaogang223@icloud.com`
-
----
+`#+AUTHOR:` **suxiaogang223** &nbsp; | &nbsp; `#+EMAIL:` **suxiaogang223@icloud.com**  
 
 ### `*` 👋 (message "Hello, World!")
 > Data Engineer & Open Source Enthusiast. Currently brewing high-performance magic at **Apache Doris**.
@@ -39,4 +36,4 @@
 <!--END_SECTION:recent_activity-->
 
 ---
-` -UUU:---- ` **[[README.org](https://github.com/suxiaogang223)]** ` All (42,0) (Org Hacking) `
+` ⏻ ` **[[README.org](https://github.com/suxiaogang223)]** ` ⎸ Ln 42:0 ⎸ All ⎸ ` **(Org Mode) ** ` ⚡ `
