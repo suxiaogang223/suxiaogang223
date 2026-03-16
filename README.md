@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(catalog) avoid external catalog refresh deadlock](https://github.com/apache/doris/pull/61202) in `apache/doris` (2026-03-16)
 - 🔀 PR Merged: [Add standalone HMS diagnostics tool](https://github.com/CalvinKirs/Pulse/pull/1) in `CalvinKirs/Pulse` (2026-03-13)
 - 🆕 Repo Created: [symphony](https://github.com/suxiaogang223/symphony) (2026-03-09)
 - 🔀 PR Merged: [branch-4.0: refactor(paimon) Per-catalog Paimon metadata cache with two-level...](https://github.com/apache/doris/pull/60741) in `apache/doris` (2026-03-09)
@@ -31,7 +32,6 @@
 - 🆕 Repo Created: [resume](https://github.com/suxiaogang223/resume) (2026-03-08)
 - 🔀 PR Merged: [fix(test) make hive compress split assertion BE-aware](https://github.com/apache/doris/pull/60947) in `apache/doris` (2026-03-03)
 - 🔀 PR Merged: [fix(iceberg) Invalidate related-table cache on external table refresh](https://github.com/apache/doris/pull/60867) in `apache/doris` (2026-02-27)
-- 🆕 Repo Created: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 - 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
 <!--END_SECTION:recent_activity-->
