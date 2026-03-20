@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 - 🔀 PR Merged: [fix(hive) Fix Hive DATE timezone shift in external readers](https://github.com/apache/doris/pull/61330) in `apache/doris` (2026-03-19)
 - 🔀 PR Merged: [branch-4.1: feature(iceberg) Support static partition overwrite for Iceberg t...](https://github.com/apache/doris/pull/61372) in `apache/doris` (2026-03-16)
 - 🔀 PR Merged: [fix(catalog) avoid external catalog refresh deadlock](https://github.com/apache/doris/pull/61202) in `apache/doris` (2026-03-16)
@@ -31,7 +32,6 @@
 - 🆕 Repo Created: [symphony](https://github.com/suxiaogang223/symphony) (2026-03-09)
 - 🔀 PR Merged: [branch-4.0: refactor(paimon) Per-catalog Paimon metadata cache with two-level...](https://github.com/apache/doris/pull/60741) in `apache/doris` (2026-03-09)
 - 🔀 PR Merged: [Add recipe for mutype](https://github.com/melpa/melpa/pull/9857) in `melpa/melpa` (2026-03-08)
-- 🆕 Repo Created: [resume](https://github.com/suxiaogang223/resume) (2026-03-08)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 - 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
 <!--END_SECTION:recent_activity-->
