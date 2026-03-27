@@ -24,13 +24,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [branch-4.1: Refactor(Multi Catalog) Unify external meta cache framework #60937](https://github.com/apache/doris/pull/61725) in `apache/doris` (2026-03-27)
 - 🔀 PR Merged: [branch-4.1: fix(regression) split hive compress-type heavy scan into p2 #61073](https://github.com/apache/doris/pull/61763) in `apache/doris` (2026-03-26)
 - 🔀 PR Merged: [branch-4.1: fix(iceberg) Fix execute action validation gaps #61381](https://github.com/apache/doris/pull/61747) in `apache/doris` (2026-03-26)
 - 🔀 PR Merged: [branch-4.1: fix(outfile) handle delete_existing_files before parallel export ...](https://github.com/apache/doris/pull/61726) in `apache/doris` (2026-03-26)
 - 🔀 PR Merged: [branch-4.1: fix(hive) Fix Hive DATE timezone shift in external readers #61330](https://github.com/apache/doris/pull/61722) in `apache/doris` (2026-03-26)
 - 🔀 PR Merged: [branch-4.1: fix(catalog) avoid external catalog refresh deadlock #61202](https://github.com/apache/doris/pull/61721) in `apache/doris` (2026-03-26)
 - 🔀 PR Merged: [fix(iceberg) Fix execute action validation gaps](https://github.com/apache/doris/pull/61381) in `apache/doris` (2026-03-25)
-- 🔀 PR Merged: [fix(outfile) handle delete_existing_files before parallel export](https://github.com/apache/doris/pull/61223) in `apache/doris` (2026-03-23)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 - 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
