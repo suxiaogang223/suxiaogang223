@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Track Issue Optimize third-party Docker startup time and usability](https://github.com/apache/doris/issues/62101) in `apache/doris` (2026-04-03)
 - 🔀 PR Merged: [fix(iceberg) Avoid dict reads on mixed-encoding position delete files](https://github.com/apache/doris/pull/61759) in `apache/doris` (2026-04-02)
 - 🔀 PR Merged: [doc: sync meta-cache documentation for version 4.x](https://github.com/apache/doris-website/pull/3513) in `apache/doris-website` (2026-04-02)
 - 🔀 PR Merged: [improvement(fe) Migrate HMS client pool to Commons Pool](https://github.com/apache/doris/pull/61553) in `apache/doris` (2026-03-31)
@@ -33,7 +34,6 @@
 - 🔀 PR Merged: [Add recipe for tetris-60](https://github.com/melpa/melpa/pull/9913) in `melpa/melpa` (2026-03-29)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
-- 🐛 Issue Opened: [RefactorTracking Unified external table metadata cache framework](https://github.com/apache/doris/issues/60686) in `apache/doris` (2026-02-11)
 <!--END_SECTION:recent_activity-->
 
 ---
