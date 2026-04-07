@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [branch-4.1: improvement(fe) Migrate HMS client pool to Commons Pool #61553](https://github.com/apache/doris/pull/62137) in `apache/doris` (2026-04-07)
 - 🐛 Issue Opened: [Track Issue Optimize third-party Docker startup time and usability](https://github.com/apache/doris/issues/62101) in `apache/doris` (2026-04-03)
 - 🔀 PR Merged: [fix(iceberg) Avoid dict reads on mixed-encoding position delete files](https://github.com/apache/doris/pull/61759) in `apache/doris` (2026-04-02)
 - 🔀 PR Merged: [doc: sync meta-cache documentation for version 4.x](https://github.com/apache/doris-website/pull/3513) in `apache/doris-website` (2026-04-02)
@@ -31,7 +32,6 @@
 - 🔀 PR Merged: [refactor(iceberg) Refactor iceberg system tables to use native table executio...](https://github.com/apache/doris/pull/61646) in `apache/doris` (2026-03-31)
 - 🔀 PR Merged: [Docs Refine and restructure the Unified External Meta Cache guide](https://github.com/apache/doris-website/pull/3444) in `apache/doris-website` (2026-03-31)
 - 🔀 PR Merged: [docs(faq): add HMS DNS resolution diagnostic and Pulse toolset](https://github.com/apache/doris-website/pull/3471) in `apache/doris-website` (2026-03-30)
-- 🔀 PR Merged: [Add recipe for tetris-60](https://github.com/melpa/melpa/pull/9913) in `melpa/melpa` (2026-03-29)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 <!--END_SECTION:recent_activity-->
