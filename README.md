@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [improvement(build) Simplify and speed up Hive docker startup workflow](https://github.com/apache/doris/pull/62103) in `apache/doris` (2026-04-20)
 - 🔀 PR Merged: [fix(regression) disable unstable case test_hudi_rewrite_mtmv](https://github.com/apache/doris/pull/62445) in `apache/doris` (2026-04-15)
 - 🔀 PR Merged: [fix(build) improve python detection in clang-format scripts](https://github.com/apache/doris/pull/62009) in `apache/doris` (2026-04-13)
 - 🔀 PR Merged: [branch-4.1: fix(regression-test) disable some unstable cases](https://github.com/apache/doris/pull/62357) in `apache/doris` (2026-04-11)
@@ -31,7 +32,6 @@
 - 🔀 PR Merged: [branch-4.1: fix(iceberg) Avoid dict reads on mixed-encoding position delete f...](https://github.com/apache/doris/pull/62136) in `apache/doris` (2026-04-08)
 - 🔀 PR Merged: [branch-4.1: improvement(fe) Migrate HMS client pool to Commons Pool #61553](https://github.com/apache/doris/pull/62137) in `apache/doris` (2026-04-07)
 - 🐛 Issue Opened: [Track Issue Optimize third-party Docker startup time and usability](https://github.com/apache/doris/issues/62101) in `apache/doris` (2026-04-03)
-- 🔀 PR Merged: [fix(iceberg) Avoid dict reads on mixed-encoding position delete files](https://github.com/apache/doris/pull/61759) in `apache/doris` (2026-04-02)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 - 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 <!--END_SECTION:recent_activity-->
