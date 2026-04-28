@@ -24,16 +24,16 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [improvement(be) Optimize parquet timestamp convert path](https://github.com/apache/doris/pull/62559) in `apache/doris` (2026-04-26)
+- 🔀 PR Merged: [doc(iceberg) Document JDBC catalog name](https://github.com/apache/doris-website/pull/3569) in `apache/doris-website` (2026-04-26)
+- 🔀 PR Merged: [fix(iceberg) Decouple JDBC catalog metadata name](https://github.com/apache/doris/pull/62806) in `apache/doris` (2026-04-26)
+- 🔀 PR Merged: [fix(docker) Stabilize ClickHouse external startup](https://github.com/apache/doris/pull/62690) in `apache/doris` (2026-04-22)
+- 🔀 PR Merged: [fix(docker) Stabilize external docker startup](https://github.com/apache/doris/pull/62664) in `apache/doris` (2026-04-21)
+- 🔀 PR Merged: [improvement(build) Simplify and speed up Hive docker startup workflow](https://github.com/apache/doris/pull/62103) in `apache/doris` (2026-04-20)
+- 🔀 PR Merged: [fix(regression) disable unstable case test_hudi_rewrite_mtmv](https://github.com/apache/doris/pull/62445) in `apache/doris` (2026-04-15)
+- 🐛 Issue Opened: [Track Issue Optimize third-party Docker startup time and usability](https://github.com/apache/doris/issues/62101) in `apache/doris` (2026-04-03)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
-- 🆕 Repo Created: [symphony](https://github.com/suxiaogang223/symphony) (2026-03-09)
-- 🆕 Repo Created: [resume](https://github.com/suxiaogang223/resume) (2026-03-08)
-- 🆕 Repo Created: [mutype](https://github.com/suxiaogang223/mutype) (2026-02-19)
-- 🆕 Repo Created: [pymacs](https://github.com/suxiaogang223/pymacs) (2026-02-16)
-- 🆕 Repo Created: [datafusion-datasource-orc](https://github.com/suxiaogang223/datafusion-datasource-orc) (2025-12-06)
-- 🆕 Repo Created: [rust-os-in-1000-lines](https://github.com/suxiaogang223/rust-os-in-1000-lines) (2025-10-06)
-- 🆕 Repo Created: [os_in_1000](https://github.com/suxiaogang223/os_in_1000) (2025-09-06)
-- 🆕 Repo Created: [suxiaogang223.github.io](https://github.com/suxiaogang223/suxiaogang223.github.io) (2024-11-16)
-- 🆕 Repo Created: [hudi_p2_init_env](https://github.com/suxiaogang223/hudi_p2_init_env) (2024-11-11)
+- 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 <!--END_SECTION:recent_activity-->
 
 ---
