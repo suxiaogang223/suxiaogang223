@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🔀 PR Merged: [improvement(be) Optimize parquet timestamp convert path](https://github.com/apache/doris/pull/62559) in `apache/doris` (2026-04-26)
 - 🔀 PR Merged: [doc(iceberg) Document JDBC catalog name](https://github.com/apache/doris-website/pull/3569) in `apache/doris-website` (2026-04-26)
 - 🔀 PR Merged: [fix(iceberg) Decouple JDBC catalog metadata name](https://github.com/apache/doris/pull/62806) in `apache/doris` (2026-04-26)
@@ -33,7 +34,6 @@
 - 🔀 PR Merged: [fix(regression) disable unstable case test_hudi_rewrite_mtmv](https://github.com/apache/doris/pull/62445) in `apache/doris` (2026-04-15)
 - 🐛 Issue Opened: [Track Issue Optimize third-party Docker startup time and usability](https://github.com/apache/doris/issues/62101) in `apache/doris` (2026-04-03)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
-- 🐛 Issue Opened: [Support querying system tables in paimon-cpp](https://github.com/alibaba/paimon-cpp/issues/141) in `alibaba/paimon-cpp` (2026-02-12)
 <!--END_SECTION:recent_activity-->
 
 ---
