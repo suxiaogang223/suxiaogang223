@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [feat: add flexible dependency source resolution](https://github.com/alibaba/paimon-cpp/pull/259) in `alibaba/paimon-cpp` (2026-05-12)
 - 🔀 PR Merged: [feat: add system table framework with options table](https://github.com/alibaba/paimon-cpp/pull/261) in `alibaba/paimon-cpp` (2026-05-08)
 - 🔀 PR Merged: [improvement(build) Optimize FE incremental build packaging](https://github.com/apache/doris/pull/62915) in `apache/doris` (2026-05-07)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [doc(iceberg) Document JDBC catalog name](https://github.com/apache/doris-website/pull/3569) in `apache/doris-website` (2026-04-26)
 - 🔀 PR Merged: [fix(iceberg) Decouple JDBC catalog metadata name](https://github.com/apache/doris/pull/62806) in `apache/doris` (2026-04-26)
 - 🔀 PR Merged: [fix(docker) Stabilize ClickHouse external startup](https://github.com/apache/doris/pull/62690) in `apache/doris` (2026-04-22)
-- 🔀 PR Merged: [fix(docker) Stabilize external docker startup](https://github.com/apache/doris/pull/62664) in `apache/doris` (2026-04-21)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
