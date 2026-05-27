@@ -24,13 +24,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(regression) Make Iceberg rewrite where init script idempotent](https://github.com/apache/doris/pull/63673) in `apache/doris` (2026-05-27)
+- 🔀 PR Merged: [feat: Support macOS builds with AppleClang and Homebrew Clang](https://github.com/alibaba/paimon-cpp/pull/279) in `alibaba/paimon-cpp` (2026-05-27)
 - 🔀 PR Merged: [fix(be) Include HDFS connection in file handle cache key](https://github.com/apache/doris/pull/63516) in `apache/doris` (2026-05-26)
 - 🔀 PR Merged: [feat: Add metadata system tables](https://github.com/alibaba/paimon-cpp/pull/285) in `alibaba/paimon-cpp` (2026-05-25)
 - 🔀 PR Merged: [enhance: improve dependency source resolution](https://github.com/alibaba/paimon-cpp/pull/282) in `alibaba/paimon-cpp` (2026-05-20)
 - 🔀 PR Merged: [fix(fe) Skip broken external tables in show tables](https://github.com/apache/doris/pull/63407) in `apache/doris` (2026-05-20)
 - 🔀 PR Merged: [feat: add audit_log and binlog system tables](https://github.com/alibaba/paimon-cpp/pull/268) in `alibaba/paimon-cpp` (2026-05-15)
-- 🔀 PR Merged: [feat: add flexible dependency source resolution](https://github.com/alibaba/paimon-cpp/pull/259) in `alibaba/paimon-cpp` (2026-05-12)
-- 🔀 PR Merged: [feat: add system table framework with options table](https://github.com/alibaba/paimon-cpp/pull/261) in `alibaba/paimon-cpp` (2026-05-08)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
