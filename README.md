@@ -24,13 +24,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [feature(be) Support nested parquet struct predicate pruning and stats filtering](https://github.com/apache/doris/pull/64098) in `apache/doris` (2026-06-04)
+- 🔀 PR Merged: [refactor(be) Simplify new parquet complex reader assembly](https://github.com/apache/doris/pull/64078) in `apache/doris` (2026-06-04)
 - 🔀 PR Merged: [improvement(fe) Improve external catalog meta cache observability](https://github.com/apache/doris/pull/63809) in `apache/doris` (2026-06-03)
 - 🔀 PR Merged: [improvement(be) Add bloom filter pruning for new parquet reader](https://github.com/apache/doris/pull/64025) in `apache/doris` (2026-06-02)
 - 🔀 PR Merged: [refactor(be) Refine new parquet reader layering](https://github.com/apache/doris/pull/63929) in `apache/doris` (2026-06-02)
 - 🔀 PR Merged: [fix(fe) Keep cached file systems alive while in use](https://github.com/apache/doris/pull/63677) in `apache/doris` (2026-06-01)
 - 🔀 PR Merged: [branch-4.0: fix(hive) Fix Hive DATE timezone shift in external readers #61330](https://github.com/apache/doris/pull/63896) in `apache/doris` (2026-06-01)
-- 🔀 PR Merged: [fix(fe) Normalize default HDFS paths in LocationPath](https://github.com/apache/doris/pull/63476) in `apache/doris` (2026-05-28)
-- 🔀 PR Merged: [fix(regression) Make Iceberg rewrite where init script idempotent](https://github.com/apache/doris/pull/63673) in `apache/doris` (2026-05-27)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
