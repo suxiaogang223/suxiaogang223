@@ -24,13 +24,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(fe) Detect Doris-compatible MySQL JDBC targets](https://github.com/apache/doris/pull/64389) in `apache/doris` (2026-06-12)
+- 🔀 PR Merged: [refactor(be) Normalize parquet complex schema projection](https://github.com/apache/doris/pull/64451) in `apache/doris` (2026-06-12)
 - 🔀 PR Merged: [refactor(be) Support recursive parquet complex readers](https://github.com/apache/doris/pull/64357) in `apache/doris` (2026-06-11)
 - 🔀 PR Merged: [improvement(be) Add new parquet page-level skip and profile metrics](https://github.com/apache/doris/pull/64214) in `apache/doris` (2026-06-09)
 - 🔀 PR Merged: [refactor(be) Refine reader column mapping identifiers](https://github.com/apache/doris/pull/64159) in `apache/doris` (2026-06-05)
 - 🔀 PR Merged: [feature(be) Support nested parquet struct predicate pruning and stats filtering](https://github.com/apache/doris/pull/64098) in `apache/doris` (2026-06-04)
 - 🔀 PR Merged: [refactor(be) Simplify new parquet complex reader assembly](https://github.com/apache/doris/pull/64078) in `apache/doris` (2026-06-04)
-- 🔀 PR Merged: [improvement(fe) Improve external catalog meta cache observability](https://github.com/apache/doris/pull/63809) in `apache/doris` (2026-06-03)
-- 🔀 PR Merged: [improvement(be) Add bloom filter pruning for new parquet reader](https://github.com/apache/doris/pull/64025) in `apache/doris` (2026-06-02)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
