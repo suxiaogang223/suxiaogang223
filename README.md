@@ -24,13 +24,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(hive) Key Hive partition cache by name](https://github.com/apache/doris/pull/64867) in `apache/doris` (2026-06-26)
 - 🔀 PR Merged: [branch-4.0: fix(fe) Detect Doris-compatible MySQL JDBC targets #64389](https://github.com/apache/doris/pull/64472) in `apache/doris` (2026-06-26)
 - 🔀 PR Merged: [test(be) Add new parquet reader UT coverage](https://github.com/apache/doris/pull/64729) in `apache/doris` (2026-06-24)
 - 🔀 PR Merged: [branch-4.1: Feature(iceberg) Implement rewrite_manifests procedure for Iceber...](https://github.com/apache/doris/pull/64391) in `apache/doris` (2026-06-16)
 - 🔀 PR Merged: [branch-4.1: fix(fe) Detect Doris-compatible MySQL JDBC targets #64389](https://github.com/apache/doris/pull/64473) in `apache/doris` (2026-06-16)
 - 🔀 PR Merged: [feat: Add manifests and files system tables](https://github.com/alibaba/paimon-cpp/pull/309) in `alibaba/paimon-cpp` (2026-06-15)
 - 🔀 PR Merged: [fix(fe) Detect Doris-compatible MySQL JDBC targets](https://github.com/apache/doris/pull/64389) in `apache/doris` (2026-06-12)
-- 🔀 PR Merged: [refactor(be) Normalize parquet complex schema projection](https://github.com/apache/doris/pull/64451) in `apache/doris` (2026-06-12)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
