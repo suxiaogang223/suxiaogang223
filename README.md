@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Support writing to Apache Paimon tables](https://github.com/apache/doris/issues/65086) in `apache/doris` (2026-07-01)
 - 🔀 PR Merged: [branch-4.0: fix(multi-catalog) OSS bucket endpoint path normalization](https://github.com/apache/doris/pull/64943) in `apache/doris` (2026-06-30)
 - 🔀 PR Merged: [fix pipeline and ut](https://github.com/apache/doris/pull/64912) in `apache/doris` (2026-06-27)
 - 🔀 PR Merged: [fix(hive) Key Hive partition cache by name](https://github.com/apache/doris/pull/64867) in `apache/doris` (2026-06-26)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [branch-4.1: Feature(iceberg) Implement rewrite_manifests procedure for Iceber...](https://github.com/apache/doris/pull/64391) in `apache/doris` (2026-06-16)
 - 🔀 PR Merged: [branch-4.1: fix(fe) Detect Doris-compatible MySQL JDBC targets #64389](https://github.com/apache/doris/pull/64473) in `apache/doris` (2026-06-16)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
-- 🐛 Issue Opened: [Improve paimon-cpp CMake structure toward modern best practices](https://github.com/alibaba/paimon-cpp/issues/260) in `alibaba/paimon-cpp` (2026-04-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
