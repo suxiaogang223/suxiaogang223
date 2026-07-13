@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [test(regression) Remove Hive transactional table cases](https://github.com/apache/doris/pull/65460) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove parquet complex cross page case](https://github.com/apache/doris/pull/65251) in `apache/doris` (2026-07-06)
 - 🐛 Issue Opened: [Support writing to Apache Paimon tables](https://github.com/apache/doris/issues/65086) in `apache/doris` (2026-07-01)
 - 🔀 PR Merged: [branch-4.0: fix(multi-catalog) OSS bucket endpoint path normalization](https://github.com/apache/doris/pull/64943) in `apache/doris` (2026-06-30)
@@ -31,7 +32,6 @@
 - 🔀 PR Merged: [fix(hive) Key Hive partition cache by name](https://github.com/apache/doris/pull/64867) in `apache/doris` (2026-06-26)
 - 🔀 PR Merged: [branch-4.0: fix(fe) Detect Doris-compatible MySQL JDBC targets #64389](https://github.com/apache/doris/pull/64472) in `apache/doris` (2026-06-26)
 - 🔀 PR Merged: [test(be) Add new parquet reader UT coverage](https://github.com/apache/doris/pull/64729) in `apache/doris` (2026-06-24)
-- 🔀 PR Merged: [branch-4.1: Feature(iceberg) Implement rewrite_manifests procedure for Iceber...](https://github.com/apache/doris/pull/64391) in `apache/doris` (2026-06-16)
 - 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
