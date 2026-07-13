@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Feature Add write/commit C FFI bindings for bindings/c/](https://github.com/apache/paimon-rust/issues/520) in `apache/paimon-rust` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Move memory-intensive external cases to P2](https://github.com/apache/doris/pull/65459) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove Hive transactional table cases](https://github.com/apache/doris/pull/65460) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove parquet complex cross page case](https://github.com/apache/doris/pull/65251) in `apache/doris` (2026-07-06)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [fix pipeline and ut](https://github.com/apache/doris/pull/64912) in `apache/doris` (2026-06-27)
 - 🔀 PR Merged: [fix(hive) Key Hive partition cache by name](https://github.com/apache/doris/pull/64867) in `apache/doris` (2026-06-26)
 - 🔀 PR Merged: [branch-4.0: fix(fe) Detect Doris-compatible MySQL JDBC targets #64389](https://github.com/apache/doris/pull/64472) in `apache/doris` (2026-06-26)
-- 🐛 Issue Opened: [BUG: Parquet name mapping still uses position fallback for projection and pre...](https://github.com/apache/iceberg-rust/issues/2403) in `apache/iceberg-rust` (2026-05-06)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
