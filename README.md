@@ -28,7 +28,7 @@
 - 🔀 PR Merged: [test(regression) Move memory-intensive external cases to P2](https://github.com/apache/doris/pull/65459) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove Hive transactional table cases](https://github.com/apache/doris/pull/65460) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove parquet complex cross page case](https://github.com/apache/doris/pull/65251) in `apache/doris` (2026-07-06)
-- 🐛 Issue Opened: [Support writing to Apache Paimon tables](https://github.com/apache/doris/issues/65086) in `apache/doris` (2026-07-01)
+- 🐛 Issue Opened: [Tracking: Paimon table write support](https://github.com/apache/doris/issues/65086) in `apache/doris` (2026-07-01)
 - 🔀 PR Merged: [branch-4.0: fix(multi-catalog) OSS bucket endpoint path normalization](https://github.com/apache/doris/pull/64943) in `apache/doris` (2026-06-30)
 - 🔀 PR Merged: [fix pipeline and ut](https://github.com/apache/doris/pull/64912) in `apache/doris` (2026-06-27)
 - 🔀 PR Merged: [fix(hive) Key Hive partition cache by name](https://github.com/apache/doris/pull/64867) in `apache/doris` (2026-06-26)
