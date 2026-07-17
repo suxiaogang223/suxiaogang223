@@ -24,6 +24,8 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(iceberg) Project Iceberg system table scans](https://github.com/apache/doris/pull/65262) in `apache/doris` (2026-07-17)
+- 🐛 Issue Opened: [opencode session list hangs for ~2 minutes due to unnecessary full InstanceBo...](https://github.com/anomalyco/opencode/issues/37435) in `anomalyco/opencode` (2026-07-17)
 - 🔀 PR Merged: [feat(c): add write/commit C FFI bindings](https://github.com/apache/paimon-rust/pull/522) in `apache/paimon-rust` (2026-07-16)
 - 🔀 PR Merged: [branch-4.0: fix(paimon) preserve partition metadata across splits](https://github.com/apache/doris/pull/65583) in `apache/doris` (2026-07-15)
 - 🔀 PR Merged: [branch-4.1: fix(paimon) preserve partition metadata across splits](https://github.com/apache/doris/pull/65581) in `apache/doris` (2026-07-15)
@@ -31,8 +33,6 @@
 - 🔀 PR Merged: [test(regression) Move memory-intensive external cases to P2](https://github.com/apache/doris/pull/65459) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove Hive transactional table cases](https://github.com/apache/doris/pull/65460) in `apache/doris` (2026-07-13)
 - 🔀 PR Merged: [test(regression) Remove parquet complex cross page case](https://github.com/apache/doris/pull/65251) in `apache/doris` (2026-07-06)
-- 🐛 Issue Opened: [Tracking: Paimon table write support](https://github.com/apache/doris/issues/65086) in `apache/doris` (2026-07-01)
-- 🔀 PR Merged: [branch-4.0: fix(multi-catalog) OSS bucket endpoint path normalization](https://github.com/apache/doris/pull/64943) in `apache/doris` (2026-06-30)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
