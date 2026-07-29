@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [fix(ui): all dropdown selects stop opening after first selection in settings](https://github.com/anomalyco/opencode/issues/39455) in `anomalyco/opencode` (2026-07-29)
 - 🔀 PR Merged: [fix(relation) preserve catalog qualification in insert_into and create](https://github.com/AstroVela/vane/pull/197) in `AstroVela/vane` (2026-07-25)
 - 🐛 Issue Opened: [perf: CLI commands hang on startup — full AppLayer init on 430MB database blo...](https://github.com/anomalyco/opencode/issues/38837) in `anomalyco/opencode` (2026-07-25)
 - 🔀 PR Merged: [feat: add global system tables framework under sys database](https://github.com/alibaba/paimon-cpp/pull/366) in `alibaba/paimon-cpp` (2026-07-23)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [fix(regression) Isolate non-catalog Kerberos test database](https://github.com/apache/doris/pull/65825) in `apache/doris` (2026-07-21)
 - 🔀 PR Merged: [improvement(regression) Reduce Kerberos test environment memory](https://github.com/apache/doris/pull/65564) in `apache/doris` (2026-07-20)
 - 🔀 PR Merged: [branch-4.1refactor(iceberg) Refactor iceberg system tables to use native tabl...](https://github.com/apache/doris/pull/65712) in `apache/doris` (2026-07-20)
-- 🐛 Issue Opened: [opencode session list hangs for ~2 minutes due to unnecessary full InstanceBo...](https://github.com/anomalyco/opencode/issues/37435) in `anomalyco/opencode` (2026-07-17)
 - 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
