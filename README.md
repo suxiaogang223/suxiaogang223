@@ -29,11 +29,11 @@
 - 🔀 PR Merged: [fix(catalog) Make external catalog resource cleanup ownership-safe](https://github.com/apache/doris/pull/66269) in `apache/doris` (2026-08-05)
 - 🔀 PR Merged: [branch-4.1: fix(multi-catalog) Preserve external partition metadata](https://github.com/apache/doris/pull/66012) in `apache/doris` (2026-08-04)
 - 🔀 PR Merged: [fix(docker)(regression) Stabilize external test environment](https://github.com/apache/doris/pull/66313) in `apache/doris` (2026-08-03)
+- 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
 - 🔀 PR Merged: [branch-4.1: fix(docker)(case) Restore Kerberos/Paimon external env and fix fl...](https://github.com/apache/doris/pull/66314) in `apache/doris` (2026-07-31)
 - 🔀 PR Merged: [branch-4.1: fix(build) Restore LSan detection](https://github.com/apache/doris/pull/66275) in `apache/doris` (2026-07-31)
 - 🐛 Issue Opened: [fix(ui): all dropdown selects stop opening after first selection in settings](https://github.com/anomalyco/opencode/issues/39455) in `anomalyco/opencode` (2026-07-29)
 - 🐛 Issue Opened: [perf: CLI commands hang on startup — full AppLayer init on 430MB database blo...](https://github.com/anomalyco/opencode/issues/38837) in `anomalyco/opencode` (2026-07-25)
-- 🆕 Repo Created: [tetris-60](https://github.com/suxiaogang223/tetris-60) (2026-03-20)
 <!--END_SECTION:recent_activity-->
 
 ---
