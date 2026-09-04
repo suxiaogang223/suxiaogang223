@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(paimon) tolerate removed paimon-cpp session variable](https://github.com/apache/doris/pull/67472) in `apache/doris` (2026-09-04)
 - 🔀 PR Merged: [chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67385) in `apache/doris` (2026-09-03)
 - 🔀 PR Merged: [branch-4.1: chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67378) in `apache/doris` (2026-09-02)
 - 🐛 Issue Opened: [Feature(catalog) Support Paimon maintenance procedures and actions](https://github.com/apache/doris/issues/67337) in `apache/doris` (2026-08-31)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [branch-4.1: fix(paimon) manage JNI writer lifecycle and spill](https://github.com/apache/doris/pull/66612) in `apache/doris` (2026-08-27)
 - 🔀 PR Merged: [fix(be) Avoid abort on absent schema tree columns](https://github.com/apache/doris/pull/67164) in `apache/doris` (2026-08-27)
 - 🔀 PR Merged: [branch-4.1: feature(catalog) Support altering Iceberg and Paimon table proper...](https://github.com/apache/doris/pull/66428) in `apache/doris` (2026-08-25)
-- 🔀 PR Merged: [feat(ai) Introduce SGLang backend behind a unified engine executor framework](https://github.com/AstroVela/vane/pull/606) in `AstroVela/vane` (2026-08-24)
 - 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
 <!--END_SECTION:recent_activity-->
 
