@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Bug Shredded Variant files miss internal field IDs and cannot be read by Java...](https://github.com/apache/paimon-cpp/issues/344) in `apache/paimon-cpp` (2026-09-15)
 - 🔀 PR Merged: [fix(paimon) tolerate removed paimon-cpp session variable](https://github.com/apache/doris/pull/67472) in `apache/doris` (2026-09-04)
 - 🔀 PR Merged: [chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67385) in `apache/doris` (2026-09-03)
 - 🔀 PR Merged: [branch-4.1: chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67378) in `apache/doris` (2026-09-02)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [branch-4.1: fix(catalog) Support database properties for Paimon and Iceberg](https://github.com/apache/doris/pull/67163) in `apache/doris` (2026-08-31)
 - 🔀 PR Merged: [branch-4.1: fix(paimon) manage JNI writer lifecycle and spill](https://github.com/apache/doris/pull/66612) in `apache/doris` (2026-08-27)
 - 🔀 PR Merged: [fix(be) Avoid abort on absent schema tree columns](https://github.com/apache/doris/pull/67164) in `apache/doris` (2026-08-27)
-- 🔀 PR Merged: [branch-4.1: feature(catalog) Support altering Iceberg and Paimon table proper...](https://github.com/apache/doris/pull/66428) in `apache/doris` (2026-08-25)
 - 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
 <!--END_SECTION:recent_activity-->
 
