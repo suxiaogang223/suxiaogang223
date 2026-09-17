@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(fe) Prevent invalid Trino string predicate pushdown](https://github.com/apache/doris/pull/67209) in `apache/doris` (2026-09-17)
 - 🐛 Issue Opened: [Bug Configured Variant shredding schema without field IDs is rejected unlike ...](https://github.com/apache/paimon-cpp/issues/347) in `apache/paimon-cpp` (2026-09-15)
 - 🐛 Issue Opened: [Bug Shredded Variant files miss internal field IDs and cannot be read by Java...](https://github.com/apache/paimon-cpp/issues/344) in `apache/paimon-cpp` (2026-09-15)
 - 🔀 PR Merged: [fix(paimon) tolerate removed paimon-cpp session variable](https://github.com/apache/doris/pull/67472) in `apache/doris` (2026-09-04)
@@ -32,7 +33,6 @@
 - 🐛 Issue Opened: [Feature(catalog) Support Paimon maintenance procedures and actions](https://github.com/apache/doris/issues/67337) in `apache/doris` (2026-08-31)
 - 🐛 Issue Opened: [Feature(paimon) Support Branch/Tag lifecycle and branch writes](https://github.com/apache/doris/issues/67336) in `apache/doris` (2026-08-31)
 - 🔀 PR Merged: [branch-4.1: fix(catalog) Support database properties for Paimon and Iceberg](https://github.com/apache/doris/pull/67163) in `apache/doris` (2026-08-31)
-- 🔀 PR Merged: [branch-4.1: fix(paimon) manage JNI writer lifecycle and spill](https://github.com/apache/doris/pull/66612) in `apache/doris` (2026-08-27)
 - 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
 <!--END_SECTION:recent_activity-->
 
