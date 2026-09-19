@@ -24,6 +24,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [branch-4.1: fix(test) sync Paimon external paths output](https://github.com/apache/doris/pull/68167) in `apache/doris` (2026-09-19)
 - 🔀 PR Merged: [branch-4.1: fix(test) stabilize Paimon thread lifecycle check](https://github.com/apache/doris/pull/68130) in `apache/doris` (2026-09-18)
 - 🔀 PR Merged: [fix(fe) Prevent invalid Trino string predicate pushdown](https://github.com/apache/doris/pull/67209) in `apache/doris` (2026-09-17)
 - 🐛 Issue Opened: [Bug Configured Variant shredding schema without field IDs is rejected unlike ...](https://github.com/apache/paimon-cpp/issues/347) in `apache/paimon-cpp` (2026-09-15)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67385) in `apache/doris` (2026-09-03)
 - 🔀 PR Merged: [branch-4.1: chore(paimon) remove paimon-cpp dependency](https://github.com/apache/doris/pull/67378) in `apache/doris` (2026-09-02)
 - 🐛 Issue Opened: [Feature(catalog) Support Paimon maintenance procedures and actions](https://github.com/apache/doris/issues/67337) in `apache/doris` (2026-08-31)
-- 🐛 Issue Opened: [Feature(paimon) Support Branch/Tag lifecycle and branch writes](https://github.com/apache/doris/issues/67336) in `apache/doris` (2026-08-31)
 - 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
 <!--END_SECTION:recent_activity-->
 
