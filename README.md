@@ -7,6 +7,7 @@
 
 ### `**` 🚀 Buffers
 - **[[Resume](https://github.com/suxiaogang223/resume)]** :: `(find-file "resume.org")` — *Grab my latest bits*
+- **[[Photography](https://suxiaogang223.github.io/photography/)]** :: `(browse-url "https://suxiaogang223.github.io/photography/")` — *Street scenes, film, and places along the way*
 - **[[Blog](https://suxiaogang223.github.io)]**   :: `(browse-url "https://suxiaogang223.github.io")` — *Random thoughts & tech rants*
 - **[[Emacs](https://github.com/suxiaogang223/kanso-emacs)]**  :: `(find-file "init.el")` — *My personal Emacs configuration, where "Kanso" (簡素) stands for simplicity and elimination of clutter.*
 - **[[Doris](https://github.com/apache/doris)]**  :: `(visit-project "apache/doris")` — *Crafting the future of real-time analytics*
