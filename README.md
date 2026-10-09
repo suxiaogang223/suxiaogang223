@@ -25,6 +25,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [docs(paimon) Document Paimon write operations](https://github.com/apache/doris-website/pull/4194) in `apache/doris-website` (2026-10-09)
 - 🔀 PR Merged: [feature(paimon) Add Paimon table write support](https://github.com/apache/doris/pull/67395) in `apache/doris` (2026-10-08)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 - 🔀 PR Merged: [feature(external) Add generic connector write framework prerequisites](https://github.com/apache/doris/pull/68320) in `apache/doris` (2026-09-29)
@@ -34,7 +35,6 @@
 - 🔀 PR Merged: [branch-4.1: fix(test) sync Paimon external paths output](https://github.com/apache/doris/pull/68167) in `apache/doris` (2026-09-19)
 - 🔀 PR Merged: [branch-4.1: fix(test) stabilize Paimon thread lifecycle check](https://github.com/apache/doris/pull/68130) in `apache/doris` (2026-09-18)
 - 🔀 PR Merged: [fix(fe) Prevent invalid Trino string predicate pushdown](https://github.com/apache/doris/pull/67209) in `apache/doris` (2026-09-17)
-- 🐛 Issue Opened: [Bug Configured Variant shredding schema without field IDs is rejected unlike ...](https://github.com/apache/paimon-cpp/issues/347) in `apache/paimon-cpp` (2026-09-15)
 <!--END_SECTION:recent_activity-->
 
 ---
