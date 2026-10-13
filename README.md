@@ -25,6 +25,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(thrift) Align external table Thrift fields with branch-4.1](https://github.com/apache/doris/pull/68837) in `apache/doris` (2026-10-13)
 - 🔀 PR Merged: [fix(regression) Move unstable cross-cloud storage suites to p2](https://github.com/apache/doris/pull/68866) in `apache/doris` (2026-10-12)
 - 🔀 PR Merged: [fix(fe) Expose Paimon FileIO access failures during catalog creation](https://github.com/apache/doris/pull/68766) in `apache/doris` (2026-10-12)
 - 🔀 PR Merged: [fix(test) Stabilize Paimon thread lifecycle check](https://github.com/apache/doris/pull/68784) in `apache/doris` (2026-10-09)
@@ -32,7 +33,6 @@
 - 🔀 PR Merged: [feature(paimon) Add Paimon table write support](https://github.com/apache/doris/pull/67395) in `apache/doris` (2026-10-08)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 - 🔀 PR Merged: [feature(external) Add generic connector write framework prerequisites](https://github.com/apache/doris/pull/68320) in `apache/doris` (2026-09-29)
-- 🔀 PR Merged: [fix(fe) Detect Doris JDBC targets with stable server identity](https://github.com/apache/doris/pull/68321) in `apache/doris` (2026-09-24)
 - 🐛 Issue Opened: [Feature Add writer resource governance: memory limits, spill, cancellation, a...](https://github.com/apache/paimon-rust/issues/911) in `apache/paimon-rust` (2026-09-22)
 - 🐛 Issue Opened: [Feature Add Java-compatible commit message serialization for cross-process C ...](https://github.com/apache/paimon-rust/issues/910) in `apache/paimon-rust` (2026-09-22)
 <!--END_SECTION:recent_activity-->
