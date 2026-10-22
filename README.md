@@ -25,16 +25,16 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(fe) Recognize prefixed ClickHouse JDBC driver versions](https://github.com/apache/doris/pull/69378) in `apache/doris` (2026-10-22)
+- 🔀 PR Merged: [fix(be) Clarify Hive and Iceberg partition writer limit errors](https://github.com/apache/doris/pull/69183) in `apache/doris` (2026-10-22)
+- 🔀 PR Merged: [fix(fe) Prevent random host selection from hanging FE unit tests](https://github.com/apache/doris/pull/69138) in `apache/doris` (2026-10-16)
+- 🔀 PR Merged: [feature(paimon) Support Paimon Rust reader on master](https://github.com/apache/doris/pull/68825) in `apache/doris` (2026-10-15)
+- 🔀 PR Merged: [fix(be) Use ConfigValidatorTest fixture consistently](https://github.com/apache/doris/pull/69009) in `apache/doris` (2026-10-13)
+- 🔀 PR Merged: [fix(thrift) Align external table Thrift fields with branch-4.1](https://github.com/apache/doris/pull/68837) in `apache/doris` (2026-10-13)
+- 🔀 PR Merged: [fix(regression) Move unstable cross-cloud storage suites to p2](https://github.com/apache/doris/pull/68866) in `apache/doris` (2026-10-12)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 - 🐛 Issue Opened: [Feature Add writer resource governance: memory limits, spill, cancellation, a...](https://github.com/apache/paimon-rust/issues/911) in `apache/paimon-rust` (2026-09-22)
 - 🐛 Issue Opened: [Feature Add Java-compatible commit message serialization for cross-process C ...](https://github.com/apache/paimon-rust/issues/910) in `apache/paimon-rust` (2026-09-22)
-- 🐛 Issue Opened: [Bug Configured Variant shredding schema without field IDs is rejected unlike ...](https://github.com/apache/paimon-cpp/issues/347) in `apache/paimon-cpp` (2026-09-15)
-- 🐛 Issue Opened: [Bug Shredded Variant files miss internal field IDs and cannot be read by Java...](https://github.com/apache/paimon-cpp/issues/344) in `apache/paimon-cpp` (2026-09-15)
-- 🐛 Issue Opened: [Feature(catalog) Support Paimon maintenance procedures and actions](https://github.com/apache/doris/issues/67337) in `apache/doris` (2026-08-31)
-- 🐛 Issue Opened: [Feature(paimon) Support Branch/Tag lifecycle and branch writes](https://github.com/apache/doris/issues/67336) in `apache/doris` (2026-08-31)
-- 🆕 Repo Created: [kumokara](https://github.com/suxiaogang223/kumokara) (2026-08-02)
-- 🐛 Issue Opened: [fix(ui): all dropdown selects stop opening after first selection in settings](https://github.com/anomalyco/opencode/issues/39455) in `anomalyco/opencode` (2026-07-29)
-- 🐛 Issue Opened: [perf: CLI commands hang on startup — full AppLayer init on 430MB database blo...](https://github.com/anomalyco/opencode/issues/38837) in `anomalyco/opencode` (2026-07-25)
 <!--END_SECTION:recent_activity-->
 
 ---
