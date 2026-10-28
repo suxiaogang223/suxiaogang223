@@ -25,13 +25,13 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [fix(fe) Surface Hive table comments from HMS](https://github.com/apache/doris/pull/69684) in `apache/doris` (2026-10-28)
 - 🔀 PR Merged: [fix(be) Catch ORC exceptions during RowID seeks](https://github.com/apache/doris/pull/69465) in `apache/doris` (2026-10-27)
 - 🔀 PR Merged: [fix(be) Prepare Parquet null maps before logical conversion](https://github.com/apache/doris/pull/69448) in `apache/doris` (2026-10-23)
 - 🔀 PR Merged: [improvement(fe) Upgrade Paimon to 2.1.0](https://github.com/apache/doris/pull/69343) in `apache/doris` (2026-10-23)
 - 🔀 PR Merged: [fix(fe) Recognize prefixed ClickHouse JDBC driver versions](https://github.com/apache/doris/pull/69378) in `apache/doris` (2026-10-22)
 - 🔀 PR Merged: [fix(be) Clarify Hive and Iceberg partition writer limit errors](https://github.com/apache/doris/pull/69183) in `apache/doris` (2026-10-22)
 - 🔀 PR Merged: [fix(fe) Prevent random host selection from hanging FE unit tests](https://github.com/apache/doris/pull/69138) in `apache/doris` (2026-10-16)
-- 🔀 PR Merged: [feature(paimon) Support Paimon Rust reader on master](https://github.com/apache/doris/pull/68825) in `apache/doris` (2026-10-15)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 - 🐛 Issue Opened: [Feature Add writer resource governance: memory limits, spill, cancellation, a...](https://github.com/apache/paimon-rust/issues/911) in `apache/paimon-rust` (2026-09-22)
 - 🐛 Issue Opened: [Feature Add Java-compatible commit message serialization for cross-process C ...](https://github.com/apache/paimon-rust/issues/910) in `apache/paimon-rust` (2026-09-22)
