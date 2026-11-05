@@ -25,16 +25,16 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [feat(c): add bounded commit-message range export](https://github.com/apache/paimon-rust/pull/1330) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [feat(c): export a pinned table's Arrow schema](https://github.com/apache/paimon-rust/pull/1331) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [test(paimon) Verify Paimon null partition refresh and rewrite](https://github.com/apache/doris/pull/70201) in `apache/doris` (2026-11-05)
+- 🐛 Issue Opened: [Feature Export the pinned table's write Arrow schema through the C API](https://github.com/apache/paimon-rust/issues/1328) in `apache/paimon-rust` (2026-11-05)
+- 🐛 Issue Opened: [Feature Add bounded range export for C commit-message bodies](https://github.com/apache/paimon-rust/issues/1327) in `apache/paimon-rust` (2026-11-05)
+- 🐛 Issue Opened: [Bug Dictionary-encoded writes can exhaust retained-input reservations before ...](https://github.com/apache/paimon-rust/issues/1326) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [fix(fe) Preserve JDBC predicate grouping and floating-point literals](https://github.com/apache/doris/pull/69987) in `apache/doris` (2026-11-05)
 - 🔀 PR Merged: [chore(paimon) Upgrade paimon-rust and reserve ANN Thrift fields](https://github.com/apache/doris/pull/70075) in `apache/doris` (2026-11-04)
 - 🔀 PR Merged: [fix(iceberg) Preserve assigned field IDs for older REST catalogs](https://github.com/apache/doris/pull/69757) in `apache/doris` (2026-10-29)
-- 🔀 PR Merged: [improvement(fe) Defer external catalog resource cleanup from replay](https://github.com/apache/doris/pull/69665) in `apache/doris` (2026-10-28)
-- 🔀 PR Merged: [fix(fe) Surface Hive table comments from HMS](https://github.com/apache/doris/pull/69684) in `apache/doris` (2026-10-28)
-- 🔀 PR Merged: [fix(be) Catch ORC exceptions during RowID seeks](https://github.com/apache/doris/pull/69465) in `apache/doris` (2026-10-27)
-- 🔀 PR Merged: [fix(be) Prepare Parquet null maps before logical conversion](https://github.com/apache/doris/pull/69448) in `apache/doris` (2026-10-23)
-- 🔀 PR Merged: [improvement(fe) Upgrade Paimon to 2.1.0](https://github.com/apache/doris/pull/69343) in `apache/doris` (2026-10-23)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
-- 🐛 Issue Opened: [Feature Add writer resource governance: memory limits, spill, cancellation, a...](https://github.com/apache/paimon-rust/issues/911) in `apache/paimon-rust` (2026-09-22)
-- 🐛 Issue Opened: [Feature Add Java-compatible commit message serialization for cross-process C ...](https://github.com/apache/paimon-rust/issues/910) in `apache/paimon-rust` (2026-09-22)
 <!--END_SECTION:recent_activity-->
 
 ---
