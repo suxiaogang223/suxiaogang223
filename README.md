@@ -25,6 +25,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🆕 Repo Created: [emacsos](https://github.com/suxiaogang223/emacsos) (2026-11-09)
 - 🔀 PR Merged: [feat(c): add bounded commit-message range export](https://github.com/apache/paimon-rust/pull/1330) in `apache/paimon-rust` (2026-11-05)
 - 🔀 PR Merged: [feat(c): export a pinned table's Arrow schema](https://github.com/apache/paimon-rust/pull/1331) in `apache/paimon-rust` (2026-11-05)
 - 🔀 PR Merged: [test(paimon) Verify Paimon null partition refresh and rewrite](https://github.com/apache/doris/pull/70201) in `apache/doris` (2026-11-05)
@@ -34,7 +35,6 @@
 - 🔀 PR Merged: [fix(fe) Preserve JDBC predicate grouping and floating-point literals](https://github.com/apache/doris/pull/69987) in `apache/doris` (2026-11-05)
 - 🔀 PR Merged: [chore(paimon) Upgrade paimon-rust and reserve ANN Thrift fields](https://github.com/apache/doris/pull/70075) in `apache/doris` (2026-11-04)
 - 🔀 PR Merged: [fix(iceberg) Preserve assigned field IDs for older REST catalogs](https://github.com/apache/doris/pull/69757) in `apache/doris` (2026-10-29)
-- 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 <!--END_SECTION:recent_activity-->
 
 ---
