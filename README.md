@@ -25,16 +25,16 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
-- 🔀 PR Merged: [docs: Prioritize Elisp file and network APIs](https://github.com/suxiaogang223/emacsos/pull/35) in `suxiaogang223/emacsos` (2026-11-11)
-- 🔀 PR Merged: [docs: Set the next runtime measurement batch](https://github.com/suxiaogang223/emacsos/pull/34) in `suxiaogang223/emacsos` (2026-11-10)
-- 🔀 PR Merged: [docs: Define M2 response targets and measurement protocol](https://github.com/suxiaogang223/emacsos/pull/33) in `suxiaogang223/emacsos` (2026-11-10)
-- 🔀 PR Merged: [docs: Specify kernel protection and fixed process authority](https://github.com/suxiaogang223/emacsos/pull/32) in `suxiaogang223/emacsos` (2026-11-10)
-- 🔀 PR Merged: [docs: Record completed M1 development acceptance](https://github.com/suxiaogang223/emacsos/pull/31) in `suxiaogang223/emacsos` (2026-11-10)
-- 🔀 PR Merged: [tests: Validate the complete in-system development loop](https://github.com/suxiaogang223/emacsos/pull/30) in `suxiaogang223/emacsos` (2026-11-10)
-- 🔀 PR Merged: [web: Add explicit data disk import and halted export](https://github.com/suxiaogang223/emacsos/pull/28) in `suxiaogang223/emacsos` (2026-11-10)
-- 🆕 Repo Created: [emacsos](https://github.com/suxiaogang223/emacsos) (2026-11-09)
+- 🔀 PR Merged: [fix(write): flush retained input before dictionary encoding exhausts its budget](https://github.com/apache/paimon-rust/pull/1329) in `apache/paimon-rust` (2026-11-10)
+- 🔀 PR Merged: [feat(c): add bounded commit-message range export](https://github.com/apache/paimon-rust/pull/1330) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [feat(c): export a pinned table's Arrow schema](https://github.com/apache/paimon-rust/pull/1331) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [test(paimon) Verify Paimon null partition refresh and rewrite](https://github.com/apache/doris/pull/70201) in `apache/doris` (2026-11-05)
 - 🐛 Issue Opened: [Feature Export the pinned table's write Arrow schema through the C API](https://github.com/apache/paimon-rust/issues/1328) in `apache/paimon-rust` (2026-11-05)
 - 🐛 Issue Opened: [Feature Add bounded range export for C commit-message bodies](https://github.com/apache/paimon-rust/issues/1327) in `apache/paimon-rust` (2026-11-05)
+- 🐛 Issue Opened: [Bug Dictionary-encoded writes can exhaust retained-input reservations before ...](https://github.com/apache/paimon-rust/issues/1326) in `apache/paimon-rust` (2026-11-05)
+- 🔀 PR Merged: [fix(fe) Preserve JDBC predicate grouping and floating-point literals](https://github.com/apache/doris/pull/69987) in `apache/doris` (2026-11-05)
+- 🔀 PR Merged: [chore(paimon) Upgrade paimon-rust and reserve ANN Thrift fields](https://github.com/apache/doris/pull/70075) in `apache/doris` (2026-11-04)
+- 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 <!--END_SECTION:recent_activity-->
 
 ---
