@@ -25,15 +25,15 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🐛 Issue Opened: [Bug Sort merge retains consumed source batches across retract-only keys with ...](https://github.com/apache/paimon-rust/issues/1386) in `apache/paimon-rust` (2026-11-12)
+- 🐛 Issue Opened: [Feature Expose structured nested read types through the C ReadBuilder API](https://github.com/apache/paimon-rust/issues/1385) in `apache/paimon-rust` (2026-11-12)
+- 🐛 Issue Opened: [Bug Accept legacy schema JSON without version using Java-compatible defaults](https://github.com/apache/paimon-rust/issues/1384) in `apache/paimon-rust` (2026-11-12)
+- 🐛 Issue Opened: [Feature Align table-level system-table support with Java and expose native C ...](https://github.com/apache/paimon-rust/issues/1383) in `apache/paimon-rust` (2026-11-12)
+- 🐛 Issue Opened: [Feature Expose audit-log and incremental reads over externally planned splits...](https://github.com/apache/paimon-rust/issues/1382) in `apache/paimon-rust` (2026-11-12)
 - 🔀 PR Merged: [fix(write): flush retained input before dictionary encoding exhausts its budget](https://github.com/apache/paimon-rust/pull/1329) in `apache/paimon-rust` (2026-11-10)
 - 🔀 PR Merged: [feat(c): add bounded commit-message range export](https://github.com/apache/paimon-rust/pull/1330) in `apache/paimon-rust` (2026-11-05)
 - 🔀 PR Merged: [feat(c): export a pinned table's Arrow schema](https://github.com/apache/paimon-rust/pull/1331) in `apache/paimon-rust` (2026-11-05)
 - 🔀 PR Merged: [test(paimon) Verify Paimon null partition refresh and rewrite](https://github.com/apache/doris/pull/70201) in `apache/doris` (2026-11-05)
-- 🐛 Issue Opened: [Feature Export the pinned table's write Arrow schema through the C API](https://github.com/apache/paimon-rust/issues/1328) in `apache/paimon-rust` (2026-11-05)
-- 🐛 Issue Opened: [Feature Add bounded range export for C commit-message bodies](https://github.com/apache/paimon-rust/issues/1327) in `apache/paimon-rust` (2026-11-05)
-- 🐛 Issue Opened: [Bug Dictionary-encoded writes can exhaust retained-input reservations before ...](https://github.com/apache/paimon-rust/issues/1326) in `apache/paimon-rust` (2026-11-05)
-- 🔀 PR Merged: [fix(fe) Preserve JDBC predicate grouping and floating-point literals](https://github.com/apache/doris/pull/69987) in `apache/doris` (2026-11-05)
-- 🔀 PR Merged: [chore(paimon) Upgrade paimon-rust and reserve ANN Thrift fields](https://github.com/apache/doris/pull/70075) in `apache/doris` (2026-11-04)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 <!--END_SECTION:recent_activity-->
 
