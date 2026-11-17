@@ -25,6 +25,8 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [deps(paimon) Upgrade paimon-rust to 0.5.0](https://github.com/apache/doris/pull/70598) in `apache/doris` (2026-11-17)
+- 🔀 PR Merged: [fix(build) Refresh the Arrow ADBC source archive checksum](https://github.com/apache/doris/pull/70610) in `apache/doris` (2026-11-17)
 - 🔀 PR Merged: [feature(fe) Support read-only Iceberg unknown columns](https://github.com/apache/doris/pull/70112) in `apache/doris` (2026-11-16)
 - 🔀 PR Merged: [c Expose structured read types for nested projection](https://github.com/apache/paimon-rust/pull/1389) in `apache/paimon-rust` (2026-11-16)
 - 🔀 PR Merged: [c Expose current-state audit planning and Arrow reads](https://github.com/apache/paimon-rust/pull/1391) in `apache/paimon-rust` (2026-11-16)
@@ -32,8 +34,6 @@
 - 🐛 Issue Opened: [Feature Expose structured nested read types through the C ReadBuilder API](https://github.com/apache/paimon-rust/issues/1385) in `apache/paimon-rust` (2026-11-12)
 - 🐛 Issue Opened: [Bug Accept legacy schema JSON without version using Java-compatible defaults](https://github.com/apache/paimon-rust/issues/1384) in `apache/paimon-rust` (2026-11-12)
 - 🐛 Issue Opened: [Feature Align table-level system-table support with Java and expose native C ...](https://github.com/apache/paimon-rust/issues/1383) in `apache/paimon-rust` (2026-11-12)
-- 🐛 Issue Opened: [Feature Expose audit-log and incremental reads over externally planned splits...](https://github.com/apache/paimon-rust/issues/1382) in `apache/paimon-rust` (2026-11-12)
-- 🔀 PR Merged: [fix(write): flush retained input before dictionary encoding exhausts its budget](https://github.com/apache/paimon-rust/pull/1329) in `apache/paimon-rust` (2026-11-10)
 - 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
 <!--END_SECTION:recent_activity-->
 
