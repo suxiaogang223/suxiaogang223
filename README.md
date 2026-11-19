@@ -25,16 +25,16 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [web: Accept compressed boot downloads on GitHub Pages](https://github.com/suxiaogang223/emacsos/pull/17) in `suxiaogang223/emacsos` (2026-11-18)
+- 🔀 PR Merged: [web: Publish a source-built browser computer](https://github.com/suxiaogang223/emacsos/pull/16) in `suxiaogang223/emacsos` (2026-11-18)
 - 🔀 PR Merged: [fix(paimon) Read 64-bit deletion vectors in native scans](https://github.com/apache/doris/pull/70401) in `apache/doris` (2026-11-18)
 - 🔀 PR Merged: [deps(paimon) Upgrade paimon-rust to 0.5.0](https://github.com/apache/doris/pull/70598) in `apache/doris` (2026-11-17)
 - 🔀 PR Merged: [fix(build) Refresh the Arrow ADBC source archive checksum](https://github.com/apache/doris/pull/70610) in `apache/doris` (2026-11-17)
 - 🔀 PR Merged: [feature(fe) Support read-only Iceberg unknown columns](https://github.com/apache/doris/pull/70112) in `apache/doris` (2026-11-16)
-- 🔀 PR Merged: [c Expose structured read types for nested projection](https://github.com/apache/paimon-rust/pull/1389) in `apache/paimon-rust` (2026-11-16)
-- 🔀 PR Merged: [c Expose current-state audit planning and Arrow reads](https://github.com/apache/paimon-rust/pull/1391) in `apache/paimon-rust` (2026-11-16)
+- 🔀 PR Merged: [system: Replace the custom kernel with Linux and a browser workspace](https://github.com/suxiaogang223/emacsos/pull/15) in `suxiaogang223/emacsos` (2026-11-16)
 - 🐛 Issue Opened: [Bug Sort merge retains consumed source batches across retract-only keys with ...](https://github.com/apache/paimon-rust/issues/1386) in `apache/paimon-rust` (2026-11-12)
 - 🐛 Issue Opened: [Feature Expose structured nested read types through the C ReadBuilder API](https://github.com/apache/paimon-rust/issues/1385) in `apache/paimon-rust` (2026-11-12)
-- 🐛 Issue Opened: [Bug Accept legacy schema JSON without version using Java-compatible defaults](https://github.com/apache/paimon-rust/issues/1384) in `apache/paimon-rust` (2026-11-12)
-- 🆕 Repo Created: [photography](https://github.com/suxiaogang223/photography) (2026-10-02)
+- 🆕 Repo Created: [emacsos](https://github.com/suxiaogang223/emacsos) (2026-11-11)
 <!--END_SECTION:recent_activity-->
 
 ---
