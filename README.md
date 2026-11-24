@@ -25,6 +25,7 @@
 
 ### `**` 🕒 Recent Logs `(*Messages*)`
 <!--START_SECTION:recent_activity-->
+- 🔀 PR Merged: [branch-4.2: improvement(fe) Upgrade Paimon to 2.1.0](https://github.com/apache/doris/pull/70103) in `apache/doris` (2026-11-24)
 - 🔀 PR Merged: [feat(c): expose joint partition and bucket routing](https://github.com/apache/paimon-rust/pull/1507) in `apache/paimon-rust` (2026-11-23)
 - 🐛 Issue Opened: [Feature Expose joint partition and bucket routing through Rust and C APIs](https://github.com/apache/paimon-rust/issues/1506) in `apache/paimon-rust` (2026-11-23)
 - 🔀 PR Merged: [improvement(iceberg) Make the shared FE worker pool size configurable](https://github.com/apache/doris/pull/70793) in `apache/doris` (2026-11-23)
@@ -33,7 +34,6 @@
 - 🐛 Issue Opened: [Feature Extend reader resource budgets to ORC and retained merge state with C...](https://github.com/apache/paimon-rust/issues/1468) in `apache/paimon-rust` (2026-11-20)
 - 🔀 PR Merged: [docs(lakehouse) Align compression support with Doris versions](https://github.com/apache/doris-website/pull/4671) in `apache/doris-website` (2026-11-20)
 - 🔀 PR Merged: [workspace: Add Emacs text workflows and a project website](https://github.com/suxiaogang223/emacsos/pull/20) in `suxiaogang223/emacsos` (2026-11-19)
-- 🔀 PR Merged: [web: Show the configured browser memory](https://github.com/suxiaogang223/emacsos/pull/19) in `suxiaogang223/emacsos` (2026-11-19)
 - 🆕 Repo Created: [emacsos](https://github.com/suxiaogang223/emacsos) (2026-11-11)
 <!--END_SECTION:recent_activity-->
 
